@@ -1,10 +1,11 @@
 // Copyright 2025 NNTU-CS
 #include "alg.h"
-#include "tstack.h"
 
 #include <cctype>
 #include <map>
 #include <string>
+
+#include "tstack.h"
 
 bool isDigit(char c) {
   return std::isdigit(static_cast<unsigned char>(c));
